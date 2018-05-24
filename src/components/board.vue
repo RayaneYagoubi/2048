@@ -1,6 +1,19 @@
 <<template>
-  
-    
+  <TABLE BORDER="1"> 
+<CAPTION> 2048 </CAPTION> 
+<TR> 
+<TH> </TH> 
+<TH> </TH> 
+<TH> </TH> 
+<TH> </TH> 
+</TR> 
+<TR> 
+<TH> </TH> 
+<TD> </TD> 
+<TD> </TD> 
+<TD> </TD> 
+</TR> 
+</TABLE>   
 </template>
 <<script>
 import Board from "@/utils/board"
