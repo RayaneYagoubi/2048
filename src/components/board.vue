@@ -8,13 +8,24 @@ export default {
   name: 'board',
   components: {},
   computed: {},
-  methods: {}
+  methods: {
+
+  }
   },
-  data (){}
+  data (){
+      return {
+          grid: [],
+          gridSize : 4
+      }
+  
   },
-  created () {}
+  created () {
+      board.init(this.gridSize)
+      this.grid =board.square
+  }
 }
 </script>
 <<style>
 
 </style>
+
