@@ -7,12 +7,6 @@
 <TH> </TH> 
 <TH> </TH> 
 </TR> 
-<TR> 
-<TH> </TH> 
-<TD> </TD> 
-<TD> </TD> 
-<TD> </TD> 
-</TR> 
 </TABLE>   
 </template>
 <<script>
